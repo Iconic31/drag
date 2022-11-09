@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin:0;
+}
+
+.box{
+    width: 100px;
+    height: 40px;
+
+    background:linear-gradient(
+        to right,
+        rgb(69, 25, 110),
+        rgb(203, 61, 203)
+    );
+    color: #fff;
+
+    border-radius: 7px;
+
+    text-align: center;
+    line-height: 40px;
+
+    cursor: move;
+    user-select: none;
+
+    position: absolute;
+}
